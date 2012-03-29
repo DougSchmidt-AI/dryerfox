@@ -1,0 +1,7 @@
+DryerFox
+========
+
+This repo contains all silly Adobe AIR browser stunt known as DryerFox. Because friends don't let friends use Internet Explorer.
+
+Cheers,
+Doug
