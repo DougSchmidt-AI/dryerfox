@@ -56,11 +56,11 @@ if (hasReqestedVersion) {
 		'name','badge',
 		'allowscriptaccess','all',
 		'pluginspage','http://www.macromedia.com/go/getflashplayer',
-		'flashvars','appname=DryerFox&appurl=https://github.com/schmidt4brains/dryerfox/raw/master/DryerFox3.air&airversion=3.1&imageurl=dryerfox_badge.jpg',
+		'flashvars','appname=DryerFox&appurl=http://schmidt4brains.github.com/dryerfox/install_badge/DryerFox3.air&airversion=3.1&imageurl=dryerfox_badge.jpg',
 		'movie','badge' ); //end AC code
 
 } else {  // Flash Player is too old or we can't detect the plugin
-	document.write('<table id="AIRDownloadMessageTable"><tr><td>Download <a href="https://github.com/schmidt4brains/dryerfox/raw/master/DryerFox3.air">DryerFox</a> now.<br /><br /><span id="AIRDownloadMessageRuntime">This application requires the <a href="');
+	document.write('<table id="AIRDownloadMessageTable"><tr><td>Download <a href="DryerFox3.air">DryerFox</a> now.<br /><br /><span id="AIRDownloadMessageRuntime">This application requires the <a href="');
 	
 	var platform = 'unknown';
 	if (typeof(window.navigator.platform) != undefined)
@@ -88,7 +88,7 @@ if (hasReqestedVersion) {
 <table id="AIRDownloadMessageTable">
 <tr>
 	<td>
-	Download <a href="https://github.com/schmidt4brains/dryerfox/raw/master/DryerFox3.air">DryerFox</a> now.<br /><br /><span id="AIRDownloadMessageRuntime">This application requires Adobe&#174;&nbsp;AIR&#8482; to be installed for <a href="http://airdownload.adobe.com/air/mac/download/latest/AdobeAIR.dmg">Mac OS</a> or <a href="http://airdownload.adobe.com/air/win/download/latest/AdobeAIRInstaller.exe">Windows</a>.</span>
+	Download <a href="DryerFox3.air">DryerFox</a> now.<br /><br /><span id="AIRDownloadMessageRuntime">This application requires Adobe&#174;&nbsp;AIR&#8482; to be installed for <a href="http://airdownload.adobe.com/air/mac/download/latest/AdobeAIR.dmg">Mac OS</a> or <a href="http://airdownload.adobe.com/air/win/download/latest/AdobeAIRInstaller.exe">Windows</a>.</span>
 	</td>
 </tr>
 </table>
